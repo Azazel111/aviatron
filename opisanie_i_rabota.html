@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Описание и работа</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Описание и работа</h1>
+    <section>
+        <h2>1.1 Назначение контроллера</h2>
+        <p>Контроллер программируемый «Мега12» предназначен для построения локальных и террито-риально-распределенных систем автоматики технологических объектов малого и среднего уровня сложности в составе корпоративной системы управления распределенным производством ПТК «МЕ-ГА», системами диспетчерского управления «АДКУ-2000+», «МЕГА-Веб» и другими SCADA систе-мами или автономно.</p>
+        <p>Контроллер обеспечивает дистанционный контроль состояния и выполняет функции управле-ния технологическим оборудованием по каналам Ethernet, УКВ 446 МГц (для контроллеров Мега12-ФБ32, Мега12-МЭК.Pro/Мега12-ФБ32.Pro, Мега12-NW), 868 МГц (для контроллера Мега12-ТМ32), проводным каналам (RS232, RS485) и другим видам связи, имеется возможность расширения за счет использования нескольких контроллеров или модулей ввода-вывода, подключенных по внутренней шине. Имеется возможность подключения GPRS модемов сторонних фирм по последовательным ин-терфейсам или Ethernet.</p>
+        <p>Контроллер «Мега12» в индустриальном исполнении отвечает жестким условиям промыш-ленной эксплуатации и устанавливается непосредственно на технологическом объекте. Контроллер предназначен для использования в непрерывном, круглосуточном режиме.</p>
+    </section>
+    <section>
+        <h2>1.2 Технические характеристики</h2>
+        <p>Основные технические характеристики приведены в таблице 1.2.1.</p>
+        <p>Таблица 1.2.1 - Основные технические характеристики контроллеров «Мега12»</p>
+        <table>
+            <tbody>
+                <tr>
+                    <th>
+                        Параметры
+                    </th>
+                    <th>
+                        Значение
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Количество токовых входов AI (4…20 мA), шт.: <br>
+                        Мега12-ФБ32 <br>
+                        Мега12-МЭК.Pro/Мега12-ФБ32.Pro <br>
+                        Мега12-ТМ32 ИНТ.003.000.300-01, ИНТ.003.000.300-02, <br>      ИНТ.003.000.300-05
+                        ИНТ.003.000.300-03, ИНТ.003.000.300-04, ИНТ.003.000.300-06 <br>
+                        Мега12-NW/Мега12-NW.МЭК
+                    </td>
+                    <td>
+                        <br>
+                        4 <br>
+                        8 <br>
+                        <br>
+                        4
+                        <br>
+                        2 <br>
+                        до 512 1)
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width="98%"
+ style='width:98.94%;margin-left:5.4pt;border-collapse:collapse;border:none'>
+ <thead>
+  <tr style='height:25.5pt'>
+   <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+   padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt'>
+   <p class=MsoNormal align=center style='text-align:center'><b><span
+   style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���������</span></b></p>
+   </td>
+   <td width="27%" style='width:27.32%;border:solid windowtext 1.0pt;
+   border-left:none;padding:0cm 5.4pt 0cm 5.4pt;height:25.5pt'>
+   <p class=MsoNormal align=center style='text-align:center'><b><span
+   style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��������</span></b></p>
+   </td>
+  </tr>
+ </thead>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����������
+  ������� ������ AI (4�20 �</span><span lang=EN-US style='font-size:11.0pt;
+  font-family:"Times New Roman","serif"'>A</span><span style='font-size:11.0pt;
+  font-family:"Times New Roman","serif"'>), ��.:</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>������
+  ����12-��32</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>������
+  ����12-���.Pro/����12-��32.Pro</span></p>
+  <p class=MsoNormal style='text-indent:14.2pt'><span style='font-size:11.0pt;
+  font-family:"Times New Roman","serif"'>����12-��32 ���.003.000.300-01,
+  ���.003.000.300-02,����� ���.003.000.300-05</span></p>
+  <p class=MsoNormal style='text-indent:14.2pt'><span style='font-size:11.0pt;
+  font-family:"Times New Roman","serif"'>������������������������
+  ���.003.000.300-03, ���.003.000.300-04, ���.003.000.300-06</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-</span><span lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>NW</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>/����12-NW.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>4</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>8</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>4</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>2</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�� 512</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'> </span><sup><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>1)</span></sup></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����������
+  ����������/������-���������� ������ </span><span lang=EN-US style='font-size:
+  11.0pt;font-family:"Times New Roman","serif"'>DI</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>, ��. �� ��� ����������
+  ������ (������� �� 10000 ���):</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32, ����12-���.Pro/����12-��32.Pro</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32 </span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-NW/����12-NW.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>18 (2)</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>8 (0)</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�� 512 (64)</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'> </span><sup><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>2)</span></sup></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����������
+  ���������� ������� (�������� ��������� 0,3 �, 48 �), ��.:</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32</span></p>
+  <p class=MsoNormal style='text-indent:14.2pt'><span style='font-size:11.0pt;
+  font-family:"Times New Roman","serif"'>����� ����12-��32 ���.003.000.300-01,
+  ���.003.000.300-02,����� ���.003.000.300-05</span></p>
+  <p class=MsoNormal style='text-indent:14.2pt'><span style='font-size:11.0pt;
+  font-family:"Times New Roman","serif"'>������������������������ ���.003.000.300-03,
+  ���.003.000.300-04, ���.003.000.300-06</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-���.Pro/����12-��32.Pro</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-NW/����12-NW.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>4</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>2</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>4</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>8</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�� 512</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'> </span><sup><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>3)</span></sup></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����������
+  ������ </span><span lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>RS</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>232, ��.:</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-���.</span><span lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>Pro</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>/����12-��32.</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>Pro</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32, ����12-NW/����12-NW.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>1</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>0</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>0</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����������
+  ������ </span><span lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>RS</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>232/</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>RS</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>485, ��.:</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32/����12-���.</span><span lang=EN-US style='font-size:11.0pt;
+  font-family:"Times New Roman","serif"'>Pro</span><span style='font-size:11.0pt;
+  font-family:"Times New Roman","serif"'>/����12-��32.</span><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>Pro</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32, ����12-NW/����12-NW.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>1</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>0</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����������
+  ������ RS485, ��.:</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-���.Pro/����12-��32.Pro</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32 </span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-NW/����12-NW.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>0</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>3/2</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>1</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>4</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����������
+  ������ </span><span lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>Ethernet</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>, ��.:</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32, ����12-��32, ����12-NW</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-���.Pro/����12-��32.Pro</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-NW.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>1</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>2/1</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���������
+  ��� ��� ������������ (</span><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>GMSK/FFSK/4-</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>GFSK</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'> ���������):</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32, ����12-���.Pro/����12-��32.Pro, ����12-NW</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32 /����12-NW.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����������
+  ����� �������� (</span><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>433
+  ��� /446 ���, 10���/100���):</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32 (</span><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���.003.000.100)</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-���.Pro/����12-��32.Pro </span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32 (���.003.000.300-05, ���.003.000.300-06)</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-NW (���.003.300.100) </span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-NW.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����������
+  ����� �������� 2400 ���:</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32 (���.003.000.300-01, ���.003.000.300-04)</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-���.Pro/����12-��32.Pro/����12-NW.���</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-NW (���.003.300.100-01)</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����������
+  ������� �����/������:</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32,</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-���.Pro/����12-��32.Pro</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32 </span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-NW/����12-NW.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����������
+  ���������� ������� ����12:</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�
+  ��������12-��32, ����12-��32 (���.003.000.300-02, ���.003.000.300-03)</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-���.Pro/����12-��32.Pro, ����12-NW, ����12-NW.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����
+  </span><span lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>Ethernet</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>:</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32, ����12-���.</span><span lang=EN-US style='font-size:11.0pt;
+  font-family:"Times New Roman","serif"'>Pro</span><span style='font-size:11.0pt;
+  font-family:"Times New Roman","serif"'>/����12-��32.</span><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>Pro</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'> </span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32, ����12-</span><span lang=EN-US style='font-size:11.0pt;
+  font-family:"Times New Roman","serif"'>NW</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-</span><span lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>NW</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'> (10Base-T)</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'> (10Base-T)</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�� (</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>10/</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>1</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>0</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>0Base-T)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��������������
+  ���������</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>Modbus RTU (</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>1, </span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>2)</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>Modbus TCP
+  (Ethernet)</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���-64-Var/IP
+  (���1, ���2, �����, </span><span lang=EN-US style='font-size:11.0pt;
+  font-family:"Times New Roman","serif"'>Ethernet</span><span style='font-size:
+  11.0pt;font-family:"Times New Roman","serif"'>),</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���-</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>MW</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>/IP (���1,
+  ���2, �����, </span><span lang=EN-US style='font-size:11.0pt;font-family:
+  "Times New Roman","serif"'>TCP</span><span style='font-size:11.0pt;
+  font-family:"Times New Roman","serif"'>, </span><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>UDP</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>),</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>HTTP</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>(</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>Ethernet</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="36%" rowspan=3 style='width:36.34%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��������
+  �������� ������ �� ������ ����� ������� ��������, ���/�</span></p>
+  </td>
+  <td width="36%" style='width:36.34%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���
+  ��������� FFSK</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>2400</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="36%" style='width:36.34%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���
+  ��������� GMSK</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>4800</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="36%" style='width:36.34%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���
+  ��������� </span><span lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>4-GFSK</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>9600</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��������
+  �������� ������ �� RS-232/RS-485, ���/�</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�� </span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>24</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>00 �� 115200 <sup>4)</sup></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��������
+  �������� ������ �� ������ ����� ����� �������� </span><span style='font-size:
+  11.0pt;font-family:"Times New Roman","serif"'>433 ��� /446 ���, ���/�</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>2400�38400</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��������
+  �������� ������ �� ������ ����� ����� �������� 2400 ���, ���/�</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>256000</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��������
+  �������� ������ �� ������������ ����, ���/�</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><a
+  name="_Hlk146617269"><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>96</span></a><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>00</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�1152</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>00</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>, 9216</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>00,
+  </span><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>1728</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>000</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'> </span><sup><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>4)</span></sup></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����������
+  ������� ������� �� ���� ����������� ����, �</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-���.Pro/����12-��32.Pro, ����12-��32 </span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-NW, ����12-NW.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�� 10 �� 24</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�� 10 �� 30</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�� 10 �� 30</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���
+  ����������� ����������� � ������������ ������������ � ���������� ������� 12
+  �, �� �����, ��</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32, ����12-��32.Pro </span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��
+  �������12-���.Pro</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-NW.���</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-NW, ����12-��32</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>500</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>700</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>500</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>300</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>������������
+  ����������������� �������������� ������ ��� ���������� �������� ������� �
+  ������� ������ ������������ 1 ��� � ������ ��� ������ �����12-���/</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����12-NW25BPM�
+  �� ������� �������������, ���, �� �����</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>1</span><span
+  lang=EN-US style='font-size:11.0pt;font-family:"Times New Roman","serif"'>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��������
+  ������� ����������, </span><span style='font-size:11.0pt;font-family:Symbol'>�</span><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�� �-� 40 ��
+  �+� 60</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�������������
+  ��������� �������, ��� ����������� ����� %, ��� ����������� 25 </span><span
+  style='font-size:11.0pt;font-family:Symbol'>�</span><span style='font-size:
+  11.0pt;font-family:"Times New Roman","serif"'>�</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>20�95</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����������
+  ��������, ���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>84�107</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�������
+  ������ </span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>IP20</span></p>
+  </td>
+ </tr>
+ <tr style='height:9.9pt'>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:9.9pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����������
+  �������� ����������� ��������� �����������</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:9.9pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>��</span></p>
+  </td>
+ </tr>
+ <tr style='height:9.9pt'>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:9.9pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>����������
+  ������� �����������, ��</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-���.Pro/����12-��32.Pro</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-��32 </span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-NW</span></p>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�����
+  ����12-NW.���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:9.9pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>222�110�61</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>182�110�50</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>170�105�50</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>38�122�93</span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>38�122�93</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>���������
+  �� �����, �����, �� ����� </span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>100 000</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="72%" colspan=2 style='width:72.68%;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Times New Roman","serif"'>�������
+  ���� ������, ���</span></p>
+  </td>
+  <td width="27%" style='width:27.32%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Times New Roman","serif"'>10</span></p>
+  </td>
+ </tr>
+</table>
+    </section>
+</body>
+</html>
